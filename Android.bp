@@ -6564,6 +6564,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 	allow_undefined_symbols: true,
@@ -6583,6 +6584,7 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "64",
 	prefer: true,
+	check_elf_files: false,
 	system_ext_specific: true,
 	allow_undefined_symbols: true,
 }
