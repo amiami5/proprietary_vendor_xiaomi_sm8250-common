@@ -171,6 +171,7 @@ PRODUCT_PACKAGES += \
     libgsl \
     libllvm-glnext \
     libllvm-qcom \
+    libllvm-qgl \
     libmdsprpc \
     libnanopb \
     libqmi_cci \
