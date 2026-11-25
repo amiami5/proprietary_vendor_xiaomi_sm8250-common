@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/xiaomi/sm8250-common",
         "hardware/qcom-caf/sm8250",
         "hardware/qcom-caf/wlan",
         "hardware/xiaomi",
@@ -549,6 +550,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libC2D2.so",
             ],
             shared_libs: [
+                "libgsl_c2d_shim",
                 "libgsl",
                 "libcutils",
                 "libutils",
@@ -817,6 +819,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libc2d30_bltlib.so",
             ],
             shared_libs: [
+                "libgsl_c2d_shim",
                 "libgsl",
                 "libcutils",
                 "libutils",
